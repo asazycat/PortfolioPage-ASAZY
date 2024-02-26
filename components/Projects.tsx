@@ -35,7 +35,7 @@ export default function Projects () {
                 <h2>GamerCore - Solo</h2>
                 <div className="desImgFormat">
                 <p>Project description</p>
-                <img src="../imgs/GamerCoreFeed.jpg" alt=""  width="800" height="600"/>
+                <img src="../images/GamerCoreFeed.jpg" alt=""  width="800" height="600"/>
                 </div>
                 <div className="links">
                 <p>
