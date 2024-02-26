@@ -14,7 +14,7 @@ export default function Projects () {
                 <div className="links">
                 <p>
                 <a href="https://verdant-kataifi-539103.netlify.app/">Hosted Link</a></p>
-                <a href="https://github.com/asazycat/ncNews"><p>Frontend</p></a>
+                <a href="https://github.com/asazycat/ncNews"><p>Frontend </p></a>
                 <a href="https://github.com/asazycat/ncNewsBE"><p>Backend</p></a>
                 </div>
             </div>
@@ -27,7 +27,7 @@ export default function Projects () {
                 <div className="links">
                 <p>
                 <a href="https://codeclan-six.vercel.app/">Hosted Link</a></p>
-            <a href="https://github.com/caffreydev/codeclan"><p>Frontend</p></a>
+            <a href="https://github.com/caffreydev/codeclan"><p>Frontend </p></a>
                 <p>(no Backend)</p>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function Projects () {
                 <div className="links">
                 <p>
                 <a href="https://gamercore-ec2e2.web.app/">Hosted Link</a></p>
-                <a href="https://github.com/asazycat/GamerCore"><p>Frontend</p></a>
+                <a href="https://github.com/asazycat/GamerCore"><p>Frontend </p></a>
                 <p>(no Backend)</p>
                 </div>
             </div>
