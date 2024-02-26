@@ -57,7 +57,6 @@ margin-right: auto;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: aliceblue;
 width: 100%;
-background-color: rgb(68, 68, 190);
 margin-bottom: 0;
 padding: 0.5em;
 }
@@ -65,7 +64,7 @@ padding: 0.5em;
 #profile {
   margin-top: 10%;
   width: 100%;
-
+ 
 }
 
 .Profile {
@@ -96,7 +95,7 @@ margin-left: -50%;
 
 #hi {
   font-size: 5em;
-
+  
 }
 #name {
   margin-top: -5%;
@@ -113,13 +112,16 @@ margin-left: -50%;
 
 
 
-.Skills {
+.Skills, .Experience {
   margin-left: auto;
 margin-right: auto;
-font-size: 1em;
-width: 100%;
-padding: 1em;
-background-color: rgb(29, 29, 139);
+margin-top: 0;
+font-size: 1.5em;
+width: 80%;
+border-bottom-left-radius: 2em;
+border-bottom-right-radius: 2em;
+padding: 0.5em;
+background-color: rgba(94, 92, 92, 0.664);;
 color:aliceblue;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 display: flex;
@@ -127,21 +129,16 @@ flex-direction:row;
 justify-content: space-around;
 }
 
-#skills {
-  margin-top: 35%;
+#skills, #experience, #projects, #contact {
+  margin-top: 25%;
+text-align: center;
+font-size: 1.5em;
+width: 80%;
+background-color: rgb(49, 49, 49);
+
 }
 
 
-.Experince {
-
-  height:500px;
-  background-color:rgb(29, 29, 139);
-  margin-left: auto;
-  margin-right: auto;
-  width:80%;
-  margin-top: 0;
-  
-}
 .eachExperince {
   margin-left: auto;
   margin-right: auto;
@@ -152,12 +149,13 @@ justify-content: space-around;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:azure;
   list-style-type: none;
+  margin-top: 0;
+  border-top-right-radius:4em ;
+  border-top-left-radius: 4em;
   
 }
 
-#experince {
-  margin-top: 35%;
-}
+
 
 .expHeadingDate {
 
@@ -169,21 +167,37 @@ justify-content: space-between;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: aliceblue;
 }
 .eachProject {
- 
+  background-color: rgb(49, 49, 49);
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid green;
   width: 80%;
   padding-left: 1em;
   padding-right: 1em;
+  color: aliceblue;
 }
 
-#projects {
- margin-top: 0;
-}
+.Contact {
+  margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+font-size: 1.5em;
+width: 30%;
+color: aliceblue;
+border-radius: 2em;
+text-align: center;
+background-color: rgb(49, 49, 49)
 
+}
+.links {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+}
 
 
 .desImgFormat {

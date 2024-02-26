@@ -1,11 +1,11 @@
-import React from "react"
+
 
 
 export default function Experience () {
     return (
         <>
-        <h1 id="experince">Experince</h1>
-        <ul className="Experince">
+        <h1 id="experience">Experince</h1>
+        <ul className="Experience">
         <li className="eachExperince">
             <div className="expHeadingDate">
             <h2>Northcoders</h2>

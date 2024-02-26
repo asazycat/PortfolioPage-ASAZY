@@ -1,9 +1,9 @@
-import React from "react"
+
 
 export default function Skills () {
     return (
         <>
-        <h1 id="skills">Skills</h1>
+        <h1 id="skills">TechStack</h1>
         <div className="Skills">
             <div>
             <h2>Programming/Scripting Languages</h2>
