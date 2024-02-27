@@ -26,8 +26,15 @@ body {
 
 .gitHubIcon {
   background-color: black;
+  height: 100px;
+  width: 100px;
 }
 
+.linkedIn {
+  background-color: rgb(49, 49, 49);
+  height: 100px;
+  width: 100px;
+}
 a:link {
   color: rgb(221, 204, 197);
   text-decoration: none;
@@ -179,6 +186,11 @@ justify-content: space-between;
   color: aliceblue;
 }
 
+.projectPhoto {
+  height:600px;
+  width:800px;
+}
+
 .Contact {
   margin-left: auto;
 margin-right: auto;
@@ -206,7 +218,681 @@ background-color: rgb(49, 49, 49)
   justify-content: space-around;
 }
 
-.linkedIn {
-  background-color: rgb(49, 49, 49);
+
+
+
+
+@media only screen and (max-width: 1300px) {
+  body {
+    margin:0;
+    background-color:rgb(32, 31, 31) ;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 5px solid rgb(230, 112, 57);
+    border-radius: 2em;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(228, 102, 52);
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .gitHubIcon {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .linkedIn {
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+    width: 100px;
+  }
+  
+  a:link {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(228, 128, 89);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h1  {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+
+  }
+  
+  #profile {
+    margin-top: 10%;
+    width: 100%;
+   
+  }
+  
+  .Profile {
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 1.0em;
+  width: 80%;
+  border-radius: 2em;
+  padding: 0.5em;
+  background-color: rgb(49, 49, 49, 0.6);
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+  
+  .logoIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150%;
+  margin-top: 50%;
+  margin-left: -50%;
  
+  }
+  
+  
+  #hi {
+    font-size: 5em;
+    
+  }
+  #name {
+    margin-top: -5%;
+    font-size: 3em;
+  }
+  
+  #and {
+    margin-top: -2%;
+  }
+  
+  #welcome {
+    font-size: 4em;
+  }
+  
+  
+  
+  .Skills, .Experience {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 1.0em;
+  width: 80%;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 0.5em;
+  background-color: rgba(94, 92, 92, 0.664);;
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  }
+  
+  #skills, #experience, #projects, #contact {
+    margin-top: 25%;
+  text-align: center;
+  font-size: 1.0em;
+  width: 80%;
+  background-color: rgb(49, 49, 49);
+  
+  }
+  
+  
+  .eachExperince {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:azure;
+    list-style-type: none;
+    margin-top: 0;
+    border-top-right-radius:4em ;
+    border-top-left-radius: 4em;
+    
+  }
+  
+  
+  
+  .expHeadingDate {
+  
+    display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  }
+  .Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+  .eachProject {
+    background-color: rgb(49, 49, 49);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: aliceblue;
+  }
+
+  .projectPhoto {
+    height: 400px;
+    width:500px;
+  }
+  
+  
+  .Contact {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 1.0em;
+  width: 30%;
+  color: aliceblue;
+  border-radius: 2em;
+  text-align: center;
+ 
+  
+  }
+  .links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+  }
+  
+  
+  .desImgFormat {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    margin:0;
+    background-color:rgb(32, 31, 31) ;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 5px solid rgb(230, 112, 57);
+    border-radius: 2em;
+    font-size: 1.25em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(228, 102, 52);
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .gitHubIcon {
+    background-color: black;
+    height: 80px;
+    width: 80px;
+  }
+
+  .linkedIn {
+    background-color: rgb(49, 49, 49);
+    height: 80px;
+    width: 80px;
+  }
+  
+  a:link {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(228, 128, 89);
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h1  {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+
+  }
+  
+  #profile {
+    margin-top: 10%;
+    width: 100%;
+   
+  }
+  
+  .Profile {
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 1.0em;
+  width: 80%;
+  border-radius: 2em;
+  padding: 0.5em;
+  background-color: rgb(49, 49, 49, 0.6);
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+  
+  .logoIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150%;
+  margin-top: 50%;
+  margin-left: -50%;
+ 
+  }
+  
+  
+  #hi {
+    font-size: 4em;
+    
+  }
+  #name {
+    margin-top: -5%;
+    font-size: 2em;
+  }
+  
+  #and {
+    margin-top: -2%;
+  }
+  
+  #welcome {
+    font-size: 3em;
+  }
+  
+  
+  
+  .Skills, .Experience {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 1em;
+  width: 80%;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 0.5em;
+  background-color: rgba(94, 92, 92, 0.664);;
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  }
+  
+  #skills, #experience, #projects, #contact {
+    margin-top: 25%;
+  text-align: center;
+  font-size: 1.0em;
+  width: 80%;
+  background-color: rgb(49, 49, 49);
+  
+  }
+  
+  
+  .eachExperince {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:azure;
+    list-style-type: none;
+    margin-top: 0;
+    border-top-right-radius:4em ;
+    border-top-left-radius: 4em;
+    
+  }
+  
+  
+  
+  .expHeadingDate {
+  
+    display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  }
+  .Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+  .eachProject {
+    background-color: rgb(49, 49, 49);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: aliceblue;
+  }
+
+  .projectPhoto {
+    height: 300px;
+    width:400px;
+  }
+  
+  
+  .Contact {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 0.75em;
+  width: 30%;
+  color: aliceblue;
+  border-radius: 2em;
+  text-align: center;
+ 
+  
+  }
+  .links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+  }
+  
+  
+  .desImgFormat {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width: 750px) {
+  body {
+    margin:0;
+    background-color:rgb(32, 31, 31) ;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 5px solid rgb(230, 112, 57);
+    border-radius: 2em;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(228, 102, 52);
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .gitHubIcon {
+    background-color: black;
+    height: 80px;
+    width: 80px;
+  }
+
+  .linkedIn {
+    background-color: rgb(49, 49, 49);
+    height: 80px;
+    width: 80px;
+  }
+  
+  a:link {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(221, 204, 197);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    background-color: rgb(228, 128, 89);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h1  {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0.5em;
+
+  }
+  
+  #profile {
+    margin-top: 10%;
+    width: 100%;
+   
+  }
+  
+  .Profile {
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 1.0em;
+  width: 80%;
+  border-radius: 2em;
+  padding: 0.5em;
+  background-color: rgb(49, 49, 49, 0.6);
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+  
+  .logoIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150%;
+  margin-top: 50%;
+  margin-left: -50%;
+ 
+  }
+  
+  
+  #hi {
+    font-size: 3em;
+    
+  }
+  #name {
+    margin-top: -5%;
+    font-size: 2em;
+  }
+  
+  #and {
+    margin-top: -2%;
+  }
+  
+  #welcome {
+    font-size: 3em;
+  }
+  
+  
+  
+  .Skills, .Experience {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 0.75em;
+  width: 80%;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 0.5em;
+  background-color: rgba(94, 92, 92, 0.664);;
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  }
+  
+  #skills, #experience, #projects, #contact {
+    margin-top: 25%;
+  text-align: center;
+  font-size: 0.85em;
+  width: 80%;
+  background-color: rgb(49, 49, 49);
+  
+  }
+  
+  
+  .eachExperince {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:azure;
+    list-style-type: none;
+    margin-top: 0;
+    border-top-right-radius:4em ;
+    border-top-left-radius: 4em;
+    
+  }
+  
+  
+  
+  .expHeadingDate {
+  
+    display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  }
+  .Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+  }
+  .eachProject {
+    background-color: rgb(49, 49, 49);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: aliceblue;
+  }
+
+  .projectPhoto {
+    height: 200px;
+    width:300px;
+  }
+  
+  
+  .Contact {
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 0.5em;
+  width: 30%;
+  color: aliceblue;
+  border-radius: 2em;
+  text-align: center;
+ 
+  
+  }
+  .links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+  }
+  
+  
+  .desImgFormat {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+  }
+  
+  
 }
