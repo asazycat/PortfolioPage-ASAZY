@@ -412,7 +412,9 @@ background-color: rgb(49, 49, 49)
     padding-right: 1em;
     color: aliceblue;
   }
-
+  .proDes {
+    width: 50%;
+  }
   .projectPhoto {
     height: 400px;
     width:500px;
@@ -637,9 +639,15 @@ background-color: rgb(49, 49, 49)
     color: aliceblue;
   }
 
+  .proDes {
+    width: 85%;
+  }
+
   .projectPhoto {
     height: 300px;
     width:400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   
@@ -666,7 +674,7 @@ background-color: rgb(49, 49, 49)
   
   .desImgFormat {
     display: flex;
-    flex-direction:column ;
+    flex-direction:column-reverse ;
     justify-content: space-around;
   }
   
@@ -893,7 +901,7 @@ background-color: rgb(49, 49, 49)
   
   .desImgFormat {
     display: flex;
-    flex-direction:column ;
+    flex-direction:column-reverse ;
     justify-content: space-around;
   }
   
@@ -1121,7 +1129,7 @@ background-color: rgb(49, 49, 49)
   
   .desImgFormat {
     display: flex;
-    flex-direction:column ;
+    flex-direction:column-reverse ;
     justify-content: space-around;
   }
   
